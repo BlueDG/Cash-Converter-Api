@@ -2,6 +2,7 @@
 @import "Footer.css";
 @import "Fonts.css";
 @import "Input.css";
+@import "Select.css";
 
 * {
     box-sizing: border-box;
