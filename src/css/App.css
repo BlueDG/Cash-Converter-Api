@@ -1,0 +1,21 @@
+@import 'Nav.css';
+@import 'Footer.css';
+
+* {
+    box-sizing: border-box;
+}
+
+.home {
+    padding: 2%;
+
+}
+
+.entry {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.result {
+    display: flex;
+}
