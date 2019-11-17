@@ -25,9 +25,15 @@
 }
 
 .entry {
-    width: 50%;
+    width: 25%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.result {}
+.result {
+    width: 50%;
+}
+
+.result-part {
+    margin: 0 5% 0 5%;
+}

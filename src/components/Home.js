@@ -34,8 +34,8 @@ export default function Home() {
           </div>
         )}
         <div className="result">
-          <span>
-            {request.value} EUR →{" "}
+          <span className="result-part">{request.value} EUR : </span>
+          <span className="result-part">
             {result && request.value * result.rates[request.to]} {request.to}
           </span>
         </div>
