@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Footer() {
-  return <div className="footer bg-light"></div>;
+  return <div className="footer bg-dark"></div>;
 }

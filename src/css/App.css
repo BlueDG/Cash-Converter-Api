@@ -1,21 +1,32 @@
-@import 'Nav.css';
-@import 'Footer.css';
+@import "Nav.css";
+@import "Footer.css";
+@import "Fonts.css";
+@import "Input.css";
 
 * {
     box-sizing: border-box;
+    font-family: "sevastopol";
+    font-size: 30px;
+    background-color: black;
+    color: #f9d4a3;
+    text-shadow: 2px 2px #956536;
+    text-transform: uppercase;
 }
+
+
 
 .home {
     padding: 2%;
-
+    margin: 0 5% 0 5%;
+    background-color: black;
+    height: 100%;
+    justify-content: space-around;
 }
 
 .entry {
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.result {
-    display: flex;
-}
+.result {}

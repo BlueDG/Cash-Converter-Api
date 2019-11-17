@@ -4,7 +4,7 @@ import Input from "./Input";
 import Select from "./Select";
 
 export default function Home() {
-  const [request, setRequest] = useState({ value: 0, to: "CZK" });
+  const [request, setRequest] = useState({ value: 0, to: "AED" });
   const [result, setResult] = useState();
 
   useEffect(() => {
